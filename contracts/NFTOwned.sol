@@ -8,7 +8,7 @@ interface IOwnership {
 }
 
 abstract contract NFTOwned {
-    address public constant OWNERSHIP = 0x0000000000000000000000000000000000000000;
+    address public constant OWNERSHIP = 0x438d380d90f5FAb028BE106B09Fd2E1cb2c68bdb;
 
     event SetOwnerId(uint256 indexed newOwnerId);
 
